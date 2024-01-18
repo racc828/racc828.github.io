@@ -122,10 +122,6 @@ nav .hide-on-med-and-down a {
 }
 
 .card-image img {
-  min-height: 255px;
-}
-
-.card-image img {
   margin-top: 40px;
 }
 
@@ -174,6 +170,11 @@ p {
 #portfolio {
   padding-top: 0;
 }
+
+#portfolio .card-image img {
+  min-height: 255px;
+}
+
 #home {
   padding: 0;
 }
